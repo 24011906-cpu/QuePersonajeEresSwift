@@ -1,0 +1,21 @@
+name: QuePersonajeEresSwift
+
+options:
+  bundleIdPrefix: com.carlosortiz
+
+targets:
+  QuePersonajeEresSwift:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - QuePersonajeEresApp.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.carlosortiz.QuePersonajeEresSwift
+        PRODUCT_NAME: QuePersonajeEresSwift
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Que personaje eres"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
